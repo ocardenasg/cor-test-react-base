@@ -3,7 +3,7 @@ function hasTextOIE(str) {
   count += (str.match(/OIE/g) || []).length;
   count += (str.match(/EIO/g) || []).length;
   return count;
-}s
+}
 
 export default function getCoincidences(matrix) {
   // create some examples of matrix

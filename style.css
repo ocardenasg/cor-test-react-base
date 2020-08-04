@@ -1,3 +1,17 @@
 h1, p {
   font-family: Lato;
 }
+
+.container {
+  display: grid;
+  width: fit-content;
+}
+
+.element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #cecece;
+  height: 3rem;
+  width: 3rem;
+}
